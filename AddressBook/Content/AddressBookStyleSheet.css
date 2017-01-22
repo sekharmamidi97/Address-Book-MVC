@@ -1,0 +1,18 @@
+﻿.title{
+    color: navy;
+}
+
+#enter{
+    color: navy;
+}
+.statement{
+    font-weight:bold;
+}
+
+
+.editor-label > label{
+    font-weight:bold;
+    float: left;
+    width: 150px;
+    font-size: 0.875em;
+}

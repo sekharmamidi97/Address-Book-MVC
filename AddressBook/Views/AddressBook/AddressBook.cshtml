@@ -1,0 +1,109 @@
+﻿@model AddressBook.Models.AddressBookModel
+@{
+    ViewBag.Title = "AddressBook";
+    Layout = "~/Views/Layout/_Layout.cshtml";
+}
+
+
+<h2 class="title">Address Book</h2>
+<p id="enter">Please enter your information in the boxes below.  If any information does not apply, you may leave it blank.</p>
+
+@using (Html.BeginForm("AddressBookResults", "AddressBook", FormMethod.Post))
+{
+    <div class="editor-label">
+        @Html.Label("firstName", "First Name: ")
+        @Html.EditorFor(ab => ab.FirstName)<br />
+    </div>
+
+    <div class="editor-label">
+        @Html.Label("middleName", "Middle Name: ")
+        @Html.EditorFor(ab => ab.MiddleName)<br />
+    </div>
+
+    <div class="editor-label">
+        @Html.Label("lastName", "Last Name: ")
+        @Html.EditorFor(ab => ab.LastName)<br />
+    </div>
+
+    <div class="editor-label">
+        @Html.Label("professionalTitle", "Professional Title: ")
+        @Html.EditorFor(ab => ab.ProfessionalTitle)<br />
+    </div>
+
+    <div class="editor-label">
+        @Html.Label("age", "Age: ")
+        @Html.EditorFor(ab => ab.Age)<br />
+    </div>
+
+    <div class="editor-label">
+        @Html.Label("homeAddress", "Home Address: ")
+        @Html.EditorFor(ab => ab.HomeAddress)<br />
+    </div>
+
+    <div class="editor-label">
+        @Html.Label("workAddress", "Work Address: ")
+        @Html.EditorFor(ab => ab.WorkAddress)<br />
+    </div>
+
+    <div class="editor-label">
+        @Html.Label("otherAddress", "Other Address: ")
+        @Html.EditorFor(ab => ab.OtherAddress)<br />
+    </div>
+
+    <div class="editor-label">
+        @Html.Label("homePhoneNumber", "Home Phone Number: ")
+        @Html.EditorFor(ab => ab.HomePhoneNumber)<br />
+    </div>
+
+    <div class="editor-label">
+        @Html.Label("workPhoneNumber", "Work Phone Number: ")
+        @Html.EditorFor(ab => ab.WorkPhoneNumber)<br />
+    </div>
+
+    <div class="editor-label">
+        @Html.Label("mobilePhoneNumber", "Mobile Phone Number: ")
+        @Html.EditorFor(ab => ab.MobilePhoneNumber)<br />
+    </div>
+
+    <div class="editor-label">
+        @Html.Label("personalEmailAddress", "Personal Email Address: ")
+        @Html.EditorFor(ab => ab.PersonalEmailAddress)<br />
+    </div>
+
+    <div class="editor-label">
+        @Html.Label("workEmailAddress", "Work Email Address: ")
+        @Html.EditorFor(ab => ab.WorkEmailAddress)<br />
+    </div>
+
+    <div class="editor-label">
+        @Html.Label("otherEmailAddress", "Other Email Address: ")
+        @Html.EditorFor(ab => ab.OtherEmailAddress)<br />
+    </div>
+
+    <div class="editor-label">
+        @Html.Label("linkedIn", "LinkedIn: ")
+        @Html.EditorFor(ab => ab.LinkedIn)<br />
+    </div>
+
+    <div class="editor-label">
+        @Html.Label("website", "Website: ")
+        @Html.EditorFor(ab => ab.Website)<br />
+    </div>
+
+    <div class="editor-label">
+        @Html.Label("twitter", "Twitter: ")
+        @Html.EditorFor(ab => ab.Twitter)<br />
+    </div>
+
+    <div class="editor-label">
+        @Html.Label("facebook", "Facebook: ")
+        @Html.EditorFor(ab => ab.Facebook)<br />
+    </div>
+    <div>
+        <br />
+        <button>Submit</button>
+    </div>
+}
+
+
+
