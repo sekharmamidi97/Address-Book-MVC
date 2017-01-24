@@ -5,14 +5,17 @@
 }
 
 
-<h2 class="title">Address Book</h2>
-<p id="enter">Please enter your information in the boxes below.  If any information does not apply, you may leave it blank.</p>
+<h2 id="title">Address Book</h2>
+<p id="enter">Please enter your information in the boxes below. You must include your first and last name, age, home address, and home phone number.  Other information may be left blank if it does not apply.</p>
 
 @using (Html.BeginForm("AddressBookResults", "AddressBook", FormMethod.Post))
 {
     <div class="editor-label">
         @Html.Label("firstName", "First Name: ")
         @Html.EditorFor(ab => ab.FirstName)<br />
+        <div class="message">
+            @Html.ValidationMessageFor(ab => ab.FirstName)
+        </div>
     </div>
 
     <div class="editor-label">
@@ -23,6 +26,9 @@
     <div class="editor-label">
         @Html.Label("lastName", "Last Name: ")
         @Html.EditorFor(ab => ab.LastName)<br />
+        <div class="message">
+            @Html.ValidationMessageFor(ab => ab.LastName)
+        </div>
     </div>
 
     <div class="editor-label">
@@ -33,11 +39,17 @@
     <div class="editor-label">
         @Html.Label("age", "Age: ")
         @Html.EditorFor(ab => ab.Age)<br />
+        <div class="message">
+            @Html.ValidationMessageFor(ab => ab.Age)
+        </div>
     </div>
 
     <div class="editor-label">
         @Html.Label("homeAddress", "Home Address: ")
         @Html.EditorFor(ab => ab.HomeAddress)<br />
+        <div class="message">
+            @Html.ValidationMessageFor(ab => ab.HomeAddress)
+        </div>
     </div>
 
     <div class="editor-label">
@@ -53,6 +65,9 @@
     <div class="editor-label">
         @Html.Label("homePhoneNumber", "Home Phone Number: ")
         @Html.EditorFor(ab => ab.HomePhoneNumber)<br />
+        <div class="message">
+            @Html.ValidationMessageFor(ab => ab.HomePhoneNumber)
+        </div>
     </div>
 
     <div class="editor-label">

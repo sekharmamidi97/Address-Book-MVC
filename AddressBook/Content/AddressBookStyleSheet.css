@@ -1,9 +1,9 @@
-﻿.title{
+﻿#title{
     color: navy;
 }
 
 #enter{
-    color: navy;
+    color: darkgrey;
 }
 .statement{
     font-weight:bold;
@@ -15,4 +15,12 @@
     float: left;
     width: 150px;
     font-size: 0.875em;
+}
+
+.message{
+    color: red;
+}
+
+#results{
+    color: gold;
 }

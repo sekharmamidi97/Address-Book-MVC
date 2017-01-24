@@ -10,21 +10,25 @@ namespace AddressBook.Models
     {
         public int InfoId { get; set; }
 
+        [Required(ErrorMessage ="You must enter your first name")]
         [Display(Name="First Name: ")]
         public string FirstName { get; set; }
 
         [Display(Name="Middle Name: ")]
         public string MiddleName { get; set; }
 
+        [Required(ErrorMessage = "You must enter your last name")]
         [Display(Name="Last Name: ")]
         public string LastName { get; set; }
 
         [Display(Name="Professional Title: ")]
         public string ProfessionalTitle { get; set; }
 
+        [Required(ErrorMessage = "You must enter your age")]
         [Display(Name="Age: ")]
         public int Age { get; set; }
 
+        [Required(ErrorMessage = "You must enter your home address")]
         [Display(Name="Home Address: ")]
         public string HomeAddress { get; set; }
 
@@ -34,6 +38,7 @@ namespace AddressBook.Models
         [Display(Name ="Other Address: ")]
         public string OtherAddress { get; set; }
 
+        [Required(ErrorMessage = "You must enter your home phone number")]
         [Display(Name="Home Phone Number: ")]
         public string HomePhoneNumber { get; set; }
 
