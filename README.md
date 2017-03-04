@@ -14,6 +14,7 @@ because I wanted to make sure that the entered information would appropriately p
 make sure that the code in Visual Studio interacting appropriately with the database in SQL Server.
 
 ##**Code Example (Screen Captures)**
+![address book mvc-model](https://cloud.githubusercontent.com/assets/22801040/23580504/40b1a0da-00d1-11e7-898b-e974e8401816.gif)
 
 
 ##**Built With**
