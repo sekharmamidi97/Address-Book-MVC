@@ -11,7 +11,7 @@ a user enters his/her information, it will then populate it into a database.
 The purpose behind this project was to practice several skills including creating models, views, controllers (MVC), HTML, CSS, and using data access layers (DAL)
 to communicate between Visual Studio and SQL Server in order to populate the database.  I included only one method in the application
 because I wanted to make sure that the entered information would appropriately populate the database.  I also incorporated an integration test to
-make sure that the code in Visual Studio interacting appropriately with the database in SQL Server.
+make sure that the code in Visual Studio interacts appropriately with the database in SQL Server.
 
 ##**Code Examples (Screen Captures)**
 
