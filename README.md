@@ -43,3 +43,4 @@ If anyone wants to access and/or contribute to this project, they can access it 
 ##Acknowledgements
 - Josh Tucholski
 - Craig Castelaz
+- Lori Somerville
