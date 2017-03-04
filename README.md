@@ -51,6 +51,8 @@ make sure that the code in Visual Studio interacting appropriately with the data
 This project was built with:
 - Microsoft Visual Studio 2015
 - Microsoft SQL Server 2014
+- HTML
+- CSS
 
 ##**Author Information**
 Sekhar Mamidi: sekhar.mamidi.97@gmail.com
