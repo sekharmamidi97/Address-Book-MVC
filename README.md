@@ -18,7 +18,7 @@ make sure that the code in Visual Studio interacts appropriately with the databa
 ![address book mvc-address book home page](https://cloud.githubusercontent.com/assets/22801040/23587111/296e0cc2-0173-11e7-9645-f22f43b2757b.gif)
 
 ###**Address Book Results Page**
-![address book mvc-address book results view](https://cloud.githubusercontent.com/assets/22801040/23587120/5f44cf8e-0173-11e7-8af9-d72c73e64729.gif)
+![address book mvc-address book results page](https://cloud.githubusercontent.com/assets/22801040/23587132/b80c3ce2-0173-11e7-92c3-b2c6b96d05c7.gif)
 
 ##**Database View (Screen Capture)**
 ###**Address Book Database**
