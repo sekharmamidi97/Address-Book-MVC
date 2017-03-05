@@ -13,29 +13,12 @@ to communicate between Visual Studio and SQL Server in order to populate the dat
 because I wanted to make sure that the entered information would appropriately populate the database.  I also incorporated an integration test to
 make sure that the code in Visual Studio interacts appropriately with the database in SQL Server.
 
-##**Code Examples (Screen Captures)**
-
-###**Address Book Model**
-![address book mvc-model](https://cloud.githubusercontent.com/assets/22801040/23580504/40b1a0da-00d1-11e7-898b-e974e8401816.gif)
-
-###**Address Book View**
-![address book mvc-address book view](https://cloud.githubusercontent.com/assets/22801040/23580555/06ccca9c-00d2-11e7-9497-0f1dac034861.gif)
-
-###**Address Book Results View**
-![address book mvc-address book results view](https://cloud.githubusercontent.com/assets/22801040/23580560/1b6721fa-00d2-11e7-810f-16144aafce92.gif)
-
-###**Address Book Controller**
-![address book mvc-address book controller](https://cloud.githubusercontent.com/assets/22801040/23580531/bcea55f2-00d1-11e7-95b0-f51602adce34.gif)
-
-###**Address Book SQL DAL**
-![address book mvc-address book sql dal](https://cloud.githubusercontent.com/assets/22801040/23580586/86d0da4e-00d2-11e7-973e-08ebdd8dde87.gif)
-
-###**Address Book Integration Test**
-![address book mvc-address book sql dal test](https://cloud.githubusercontent.com/assets/22801040/23580602/c4bcea3c-00d2-11e7-8200-12165d6cd225.gif)
-
 ##**Page View (Screen Capture)**
-###**Home and Results Page**
-![address book mvc-address book home and results page](https://cloud.githubusercontent.com/assets/22801040/23580612/efd307ec-00d2-11e7-89ca-49727a1a36b9.gif)
+###**Address Book Home Page**
+![address book mvc-address book home page](https://cloud.githubusercontent.com/assets/22801040/23587111/296e0cc2-0173-11e7-9645-f22f43b2757b.gif)
+
+###**Address Book Results Page**
+![address book mvc-address book results view](https://cloud.githubusercontent.com/assets/22801040/23587120/5f44cf8e-0173-11e7-8af9-d72c73e64729.gif)
 
 ##**Database View (Screen Capture)**
 ###**Address Book Database**
