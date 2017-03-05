@@ -22,7 +22,7 @@ make sure that the code in Visual Studio interacts appropriately with the databa
 
 ##**Database View (Screen Capture)**
 ###**Address Book Database**
-![address book mvc-address book database](https://cloud.githubusercontent.com/assets/22801040/23580616/0874f094-00d3-11e7-91a9-b98fbf2bc464.gif)
+![address book mvc-address book database](https://cloud.githubusercontent.com/assets/22801040/23587191/fc67e4e4-0174-11e7-9fad-9af0ad951667.gif)
 
 ##**Built With**
 This project was built with:
